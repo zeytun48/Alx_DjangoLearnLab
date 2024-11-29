@@ -6,7 +6,11 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LibraryProject.settings')
+
+
+
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_models.settings')
+Set up custom user model in advanced_features_and_security project
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
